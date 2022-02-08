@@ -1,0 +1,17 @@
+.footer__menu-item {
+  padding-right: 18px;
+}
+
+.footer__menu-item:last-child {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 724px) {
+  .footer__menu-item {
+    padding-bottom: 32px;
+    padding-right: 0;
+  }
+  .footer__menu-item:last-child {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.page__lead {
+  max-width: 984px;
+  width: calc(100% - 2 * 148px);
+  margin: 56px auto 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__lead {
+    width: calc(100% - 2 * 48px);
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__lead {
+    width: 100%;
+    max-width: 320px;
+    margin: 48px 2px 64px;
+  }
+}
