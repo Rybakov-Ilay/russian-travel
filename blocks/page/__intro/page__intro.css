@@ -1,21 +1,20 @@
 .page__intro {
-  max-width: 690px;
   margin: 0 0 92px 148px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .page__intro {
     margin-left: 48px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .page__intro {
     margin: 0 24px 88px;
   }
 }
 
-@media screen and (max-width: 325px){
+@media screen and (max-width: 325px) {
   .page__intro {
     margin: 0 16px 64px;
   }
