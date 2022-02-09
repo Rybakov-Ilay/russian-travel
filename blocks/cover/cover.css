@@ -1,6 +1,13 @@
 .cover {
   max-width: 1184px;
   position: relative;
-  padding-bottom: calc(740 / 1184 * 100%);
+  padding-bottom: calc(740 / 1184 * 92.5%);
   background: center / cover no-repeat url("../../images/cover-trains.jpg");
+}
+
+
+@media screen and (max-width: 1024px){
+  .cover {
+    padding-bottom: calc(640 / 1024 * 100%);
+  }
 }

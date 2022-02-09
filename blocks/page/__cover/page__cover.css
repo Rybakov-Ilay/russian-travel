@@ -8,6 +8,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .page__cover {
+    margin: 0 0 88px;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .page__cover {
     margin: 0 0 66px;
